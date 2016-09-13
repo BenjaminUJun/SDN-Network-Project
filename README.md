@@ -9,6 +9,6 @@
 ##3. Detecting Packet Trajectory on NetMagic Platform: 
   NetMagic is FPGA-based SDN switching device, which overcomes the limitations of the equipment NetFPGA form, programmability, performance and other aspects. It is easy to modify software and hardware, design case fully, etc. This paper present the detection of network topology and packet trajectory in the network consists of NetMagics. We use probe packet to reproduce the trajectory of arbitrary production packet only by adding three rules per NetMagic to record path his-tory in on-board RAM. The core idea is that we install a hash function in both controller and NetMagic to process the header of probe packets, which considerably reduce the usage of RAM space and facilitate the collection of trajectory data. The evaluation shows that our implementation works properly under high concurrency of tracing tasks by adjusting the parameter of hash function.
 
-This is the SDN Network Fault Diagnosis project developed Yu Jun@SoutheastUniversity.
+This is the SDN Network Fault Diagnosis project developed by Yu Jun@SoutheastUniversity.
 
 If you find any issues or bugs, please contact me with e-mail: yujun_daxia@163.com
